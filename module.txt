@@ -1,0 +1,14 @@
+{
+    "id" : "Archipelago",
+    "version" : "0.1.0-SNAPSHOT",
+    "author" : "",
+    "displayName" : "Archipelago",
+    "description" : "",
+    "dependencies" : [
+	{
+             "id" : "Core",
+             "minVersion" : "1.0.0"
+        }
+	],
+    "serverSideOnly" : false
+}
