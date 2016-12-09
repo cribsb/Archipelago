@@ -77,7 +77,7 @@ public class SurfaceProvider implements ConfigurableFacetProvider{
     }
 
     private static class ArchipelagoConfiguration implements Component {
-        @Range(min = 0.005f, max = 1f, increment = 0.005f, precision = 1, description = "Surrealism")
+        @Range(min = 0.005f, max = 1f, increment = 0.005f, precision = 3, description = "Surrealism")
         private float surrealism = 0.05f;
     }
 }
